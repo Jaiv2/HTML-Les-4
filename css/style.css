@@ -1,17 +1,14 @@
 p{
     color: rgb(152, 11, 170);
 }
-h2 span.hoofd1 {
-    color: rgb(223, 34, 9);
+h1 {
+    color: var(--maroon);
 }
-h2 span.hoofd2 {
-    color: rgb(30, 34, 224);
-}
-h2 span.hoofd3 {
-    color: rgb(35, 214, 19);
+h2 {
+    color: var(--maroon);
 }
 body {
-    background-color: rgb(15, 190, 153);
+    background-color: var(--lightgrey)
   }
   #first{
     color: red
@@ -24,3 +21,16 @@ p span.second{
 p span.third{
     color: blue
 }
+article {
+    border-style: double;
+    border-width: 1px;
+}
+body {
+    font-family: Verdana;
+}
+heading-color {
+    --maroon: #790707;
+  }
+  background-color {
+    --lightgrey: #D3D3D3;
+  }
