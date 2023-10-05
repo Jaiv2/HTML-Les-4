@@ -1,36 +1,59 @@
-p{
+p {
     color: rgb(152, 11, 170);
 }
+
 h1 {
     color: var(--maroon);
 }
+
 h2 {
     color: var(--maroon);
 }
+
 body {
     background-color: var(--lightgrey)
-  }
-  #first{
+}
+
+#first {
     color: red
 }
-p span.second{
+
+p span.second {
     background-color: grey;
     color: white
-    
 }
-p span.third{
+
+p span.third {
     color: blue
 }
+
 article {
     border-style: double;
     border-width: 1px;
 }
+
 body {
     font-family: Verdana;
 }
+
 heading-color {
     --maroon: #790707;
-  }
-  background-color {
+}
+
+background-color {
     --lightgrey: #D3D3D3;
-  }
+}
+
+a {
+    color: pink;
+}
+
+a:hover {
+    color: black;
+}
+a:visited {
+    color: hotpink;
+}
+a:hover {
+    color: black;
+}
